@@ -23,7 +23,7 @@
       <td> {{client.firstName}} {{client.lastName}}</td>
       <td>{{client.email}}</td>
       <td>{{client.balance | currency:"INR":true}}</td>
-      <td><a href="" class="btn btn-primary btn-sm"><i class="fa fa-arrow-circle-right"></i> Details</a></td>
+      <td><a [routerLink]="['/client/'+client.$key]" href="" class="btn btn-primary btn-sm"><i class="fa fa-arrow-circle-right"></i> Details</a></td>
     </tr>
   </tbody>
 </table>
@@ -31,5 +31,5 @@
 <ng-template #noClients>
   <hr>
   <h5>
-    There are no clients in the database </h5>
+    There are no clients to show yet in the system. </h5>
 </ng-template>
