@@ -1,0 +1,11 @@
+.navbar-default .navbar-brand {
+    color: #F30000;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #337ab7;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+    font-weight: bold;
+}
