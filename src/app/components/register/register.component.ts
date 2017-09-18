@@ -24,11 +24,11 @@ export class RegisterComponent implements OnInit {
   onSubmit(){
     this.authService.register(this.email, this.password)
      .then((res) => {
-       this.flashMessagesService.show('New user register', {cssClass:'alert-success', timeout:4000});
+       this.flashMessagesService.show('New user register', {cssClass:'alert-success', timeout:3000});
        this.router.navigate(['/']);
      })
      .catch((err) => {
-      this.flashMessagesService.show(err.message, {cssClass:'alert-danger', timeout:4000});
+      this.flashMessagesService.show(err.message, {cssClass:'alert-danger', timeout:3000});
       this.router.navigate(['/register']);
      }) 
   }

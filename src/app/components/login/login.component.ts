@@ -25,11 +25,11 @@ export class LoginComponent implements OnInit {
   onSubmit(){
     this.authService.login(this.email, this.password)
     .then((res) =>{
-      this.flashMessagesService.show('You are logged in',{ cssClass: 'alert-success', timeout: 4000 });
+      this.flashMessagesService.show('You are logged in',{ cssClass: 'alert-success', timeout: 2000 });
       this.router.navigate(['/']);
     })
     .catch((err) =>{
-      this.flashMessagesService.show(err.message,{ cssClass: 'alert-danger', timeout: 4000 });
+      this.flashMessagesService.show(err.message,{ cssClass: 'alert-danger', timeout: 3000 });
       this.router.navigate(['/login']);
     });
   }
