@@ -2,16 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
 
-#Project Information
+# Project Information
 
 * Demo Login 
    testuser@gmail.com/initpass
 
 * Note
- 1) For login storage : Firebase Database is used.
- 2) Contains all CRUD functionalities.
- 3) Added Auth Guards and User Registeration Guards.
- 4) For Setting Storage used - Local Storage.
+ ** 1) For login storage : Firebase Database is used.
+ ** 2) Contains all CRUD functionalities.
+ ** 3) Added Auth Guards and User Registeration Guards.
+ ** 4) For Setting Storage used - Local Storage.
 
 ## Development server
 
