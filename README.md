@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 * Demo Login 
 ```
- testuser@gmail.com\initpass
+ testuser@gmail.com\test1234
 ```
 * Note:-
 ```
